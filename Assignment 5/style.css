@@ -1,0 +1,373 @@
+body{
+    width: 100%;
+    margin: 0
+}
+
+header {
+    position: fixed;
+    background-color: black;
+    width: 100%;
+    height: 10%;
+    display: flex;
+    flex-direction: row;
+}
+
+.nav-container{
+    background-color: black;
+}
+
+.title {
+    color: white;
+    font-family: fantasy;
+    font-size: small;
+    font-weight: bolder;
+    
+}
+
+ul {
+    list-style-type: none;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    width: 50%;
+    margin-left: 300px;
+}
+
+.navitems {
+    color: white;
+}
+
+a {
+    text-decoration: none;
+    color: blue
+}
+
+a:hover {
+    color: purple;
+}
+
+.deadlift {
+    width: 100%;
+    z-index: -1;
+    margin-bottom: -30px
+}
+
+.main-text {
+    text-align: center;
+    margin-top: -580px;
+    color: white;
+    text-transform: uppercase;
+}
+
+.main-title {
+    font-family: fantasy;
+    font-size: 50px;
+}
+
+.main-quote {
+    font-weight: bolder;
+}
+
+.locations {
+    padding-top: 290px;
+    width: 100%;
+}
+
+.dumbells {
+    width: 100%;
+    height: 300px;
+    z-index: -1;
+}
+
+.location-title {
+    text-align: center;
+    margin-top: -200px;
+    color: white;
+    text-transform: uppercase;
+    font-size: 50px;
+    font-weight: bolder;
+}
+
+#location-info {
+    padding-top: 120px;
+    text-align: center;
+    color: white;
+    background-color: black;
+    padding-bottom: 30px;
+    
+}
+
+.state {
+    text-decoration: underline;
+    font-size: 30px;
+}
+
+.select-state {
+    width: 40%;
+    height: 15%;
+    font-size: 20px;
+    font-style: italic;
+    background-color: yellow;
+    border: none
+}
+
+.item1 {
+    padding-bottom: 20px;
+}
+
+.item1:hover {
+    background-color: red;
+}
+
+.item2:hover {
+    background-color: red;
+}
+
+.item3:hover {
+    background-color: red;
+}
+
+.group-class {
+    margin-bottom: -5px;
+    width: 100%;
+    height: 300px;
+    z-index: -1;
+}
+
+.benefits-header {
+    text-align: center;
+    margin-top: -200px;
+    color: white;
+    text-transform: uppercase;
+    font-size: 50px;
+    font-weight: bolder;
+}
+
+#benefits-info {
+    padding-top: 100px;
+}
+
+.benefits-pic {
+    width: 20%;
+    height: 190px;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
+
+.grid-container1 {
+    display: grid;
+    grid-template-rows: auto auto auto;
+}
+
+.benefit-studio {
+    display: flex;
+    flex-direction: row;
+    color: white;
+    background-image: linear-gradient(gray, black);
+
+}
+
+.studio-experience {
+    padding-left: 10px;
+    text-decoration: underline;
+}
+
+.studio-text {
+    font-style: italic;
+}
+
+.benefit-button {
+    background-color: darkgray;
+    border-style: none;
+    font-size: larger;
+    font-weight: bold;
+}
+
+.benefit-button:hover {
+        background-color:blue
+}
+
+.per_train-pic {
+    width: 39.5%;
+    height: 200px
+}
+
+.training-text {
+    padding-left: 50px;
+    font-style: italic;
+}
+
+#training-btn {
+    width: 16.5%
+}
+
+.benefit-feat {
+    display: flex;
+    flex-direction: row;
+}
+
+#dumbbells {
+    width: 41.5%
+}
+
+#dumbbells-btn {
+    width: 17.5%
+}
+
+.pullup {
+    width: 100%;
+    height: 400px
+}
+
+.training-title {
+    text-align: center;
+    margin-top: -200px;
+    color: white;
+    text-transform: uppercase;
+    font-size: 50px;
+    font-weight: bolder;
+}
+
+#training-content {
+    padding-top: 110px;
+    color: white;
+    background-image: linear-gradient(gray, darkgray);
+    text-align: center;
+}
+
+.well-being {
+    padding-top: 19px;
+    border-right: thin;
+    border-left: thin;
+    border-style: solid;
+    border-top: none;
+    border-bottom: none;
+    border-color: lightcyan;
+    margin-top: -.8em 
+}
+
+#client-btn {
+    margin-left: 50px
+}
+
+.recieve {
+    padding-bottom: 10px;
+}
+
+#well-btn {
+    margin-top: 60px
+}
+
+#proven-btn {
+    margin-top: 95px;
+    width: 45%
+}
+
+button:hover {
+    background-color: yellowgreen;
+}
+
+.signup {
+    margin-top: -1.22em;
+    color: white;
+    background-color: black;
+    justify-content: space-around;
+}
+
+.signup-head {
+    font-weight: lighter;
+    text-align: center;
+}
+
+.signup-content {
+    text-align: center
+    
+}
+
+#location {
+    margin-bottom: 20px;
+    width: 30%;
+    
+}
+
+.location-head {
+    margin-bottom: -2px;
+    padding-top: 30px;
+    font-weight: lighter;
+}
+
+.signup-info {
+    font-size: medium;
+    margin-bottom: 20px;
+    color: white;
+    width: 30%;
+    height: 20px;
+    border-style: solid;
+    border-color: white;
+    background-color: black;
+}
+
+label {
+    font-size: 19px;
+}
+
+.acknowledge {
+    padding-top: 80px;
+    text-align: center;
+}
+
+.acknowledge-btn {
+    margin-top: 15px;
+    margin-bottom: 2em;
+    width: 10%;
+    background-color: blue;
+    color: white;
+    border-style: none;
+    font-weight: bold;
+
+}
+
+footer {
+    color: white;
+    background-color: black;
+    border: thin;
+    border-color: gray;
+    border-style: solid;
+    border-right: none;
+    border-left: none;
+    border-bottom: none;
+    margin-bottom: -1em;
+    text-align: center;
+}
+
+.connect {
+    text-decoration: underline;
+}
+
+.copyright-head {
+    font-weight: lighter;
+    font-size: 31px;
+    
+}
+
+.copyright {
+    display: flex;
+    flex-direction: row;
+    padding-left: 530px;
+    padding-top: 30px;
+    color: gray
+}
+
+.date-title {
+    padding-left: 20px;
+    padding-top: 20px;
+}
+
+.symbols {
+    font-size: 30px;
+}
